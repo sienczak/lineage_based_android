@@ -5,7 +5,7 @@
             revision="lineage-19.1" />
 
     <remote name="arcadia"
-            fetch="https://github.com/arcadia-oss"
+            fetch="https://github.com/sienczak"
             revision="emerald-s-oss" />
 
     <!-- Teracube Device Repositories -->
@@ -17,7 +17,7 @@
     <project path="device/mediatek/sepolicy" name="android_device_mediatek_sepolicy" groups="mediatek" remote="teracube" />
 
     <!-- Kernel -->
-    <project path="kernel/teracube/mt6765" name="mt6765" groups="kernel" remote="arcadia" />
+    <project path="kernel/teracube/mt6765" name="teracube_mt6765_kernel" groups="kernel" remote="arcadia" />
 
     <!-- Proprietary -->
     <project path="vendor/teracube" name="proprietary_vendor_teracube" groups="vendor,teracube" remote="teracube" />
